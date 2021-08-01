@@ -7,6 +7,8 @@ public class Main {
         myObject.ReadName();
         System.out.println("This is a class variable - " + MyClass.Gender); //Accessing a class variable (attribute).
         System.out.println("This is an instance variable - " + myObject.FirstName); //Accessing an instance variable (attribute).
+        myObject.NonStaticMethod(); //Accessing a non-static method/function through the object.
+        MyClass.StaticMethod(); //Accessing a static method/function through the object.
 
     }
 }
