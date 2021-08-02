@@ -5,6 +5,7 @@ public class MyClass {
     String MiddleName = "Konadu"; //Attribute - variables in a class are called attributes of the class.
     String LastName = "Akuoko";
     public static String Gender = "I am a boy"; //Class variable.
+
     //The following attributes will be initialized by the constructor.
     String FatherName;
     String MotherName;
@@ -36,5 +37,13 @@ public class MyClass {
     public static void StaticMethod() {
         System.out.println("This is a static method and can be called/accessed without creating any object," +
                 " but through class referencing and the dot syntax(.)");
+    }
+
+    //USAGE OF ABSTRACT CLASSES.
+    public void ListAnimalDetails(Animal_AbstractClass animals){
+        animals.About();
+        animals.animalName();
+        animals.animalColor();
+        animals.animalBreed();
     }
 }
