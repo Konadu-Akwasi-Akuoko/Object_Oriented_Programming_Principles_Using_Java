@@ -12,6 +12,35 @@ public class MyClass {
     String SisterName;
     String BrotherName;
 
+    //ENCAPSULATION
+   private String _homeTown;
+   private String _houseNumber;
+   private String _houseColor;
+
+   public void set_homeTown(String _homeTown){
+       this._homeTown = _homeTown;
+   }
+
+   public void set_houseNumber(String _houseNumber){
+       this._houseNumber = _houseNumber;
+   }
+
+   public void set_houseColor(String _houseColor){
+       this._houseColor = _houseColor;
+   }
+
+    public String get_homeTown() {
+        return _homeTown;
+    }
+
+    public String get_houseNumber() {
+        return _houseNumber;
+    }
+
+    public String get_houseColor() {
+        return _houseColor;
+    }
+
     public MyClass() {  //This is a constructor, and it is used to initialize variables.
 
     }

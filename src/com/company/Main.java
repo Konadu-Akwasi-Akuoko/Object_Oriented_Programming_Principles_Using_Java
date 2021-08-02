@@ -1,8 +1,13 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
+
     public static void main(String[] args) {
+        Scanner getInput = new Scanner(System.in);
+
         //CLASSES AND OBJECTS
         MyClass myObject = new MyClass();
         myObject.ReadName();
@@ -32,6 +37,17 @@ public class Main {
         myObject.ListAnimalDetails(new Dog_ExtendClass());
         myObject.ListAnimalDetails(new Lion_ExtendClass());
         myObject.ListAnimalDetails(new Snake_ExtendClass());
+
+        //ENCAPSULATION
+        System.out.println("Provide the following details:" + "\n" + "Hometown:");
+        myObject.set_homeTown(getInput.nextLine());
+        System.out.println("House number:");
+        myObject.set_houseNumber(getInput.nextLine());
+        System.out.println("House color:");
+        myObject.set_houseColor(getInput.nextLine());
+        System.out.println("Your home town is: " + myObject.get_homeTown());
+        System.out.println("Your house number is: " + myObject.get_houseNumber());
+        System.out.println("And lastly your house color is: " + myObject.get_houseColor());
     }
 }
 
