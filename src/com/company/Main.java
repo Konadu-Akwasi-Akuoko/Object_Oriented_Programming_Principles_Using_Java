@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
+import com.myPackage.AddTwoNumbers;
 
 public class Main {
 
@@ -48,6 +49,10 @@ public class Main {
         System.out.println("Your home town is: " + myObject.get_homeTown());
         System.out.println("Your house number is: " + myObject.get_houseNumber());
         System.out.println("And lastly your house color is: " + myObject.get_houseColor());
+
+        //PACKAGE AND API'S
+        AddTwoNumbers addNumber = new AddTwoNumbers();
+        addNumber.AddTwoIntegers(43,12);
     }
 }
 
