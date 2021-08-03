@@ -1,6 +1,6 @@
 package com.company;
 
-public class Dog_ExtendClass extends Animal_AbstractClass{
+public class Dog_ExtendClass extends Animal_AbstractClass {
     @Override
     public void About() {
         super.About();
@@ -13,7 +13,7 @@ public class Dog_ExtendClass extends Animal_AbstractClass{
 
     @Override
     public void animalBreed() {
-     System.out.println("Dog");
+        System.out.println("Dog");
     }
 
     @Override

@@ -1,7 +1,6 @@
 package com.company;
-
 import java.util.Scanner;
-import com.myPackage.AddTwoNumbers;
+import com.mypackage.AddTwoNumbers;
 
 public class Main {
 
@@ -53,6 +52,11 @@ public class Main {
         //PACKAGE AND API'S
         AddTwoNumbers addNumber = new AddTwoNumbers();
         addNumber.AddTwoIntegers(43,12);
+
+        //INHERITANCE
+        MySchool_useInheritance school = new MySchool_useInheritance();
+        school.LocationOfSchool();
+        school.MySchool();
     }
 }
 

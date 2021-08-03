@@ -1,4 +1,4 @@
-package com.myPackage;
+package com.mypackage;
 
 public class AddTwoNumbers {
     public void AddTwoIntegers(int firstNumber, int secondNumber) {
