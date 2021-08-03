@@ -7,4 +7,10 @@ public class MySchool_useInheritance extends School_InheritanceClass {
         System.out.println("The short form of my school is: " + schoolNameShortForm);
         System.out.println("The year it was established was: " + dateEstablished);
     }
+
+    //POLYMORPHISM
+    @Override
+    public void LocationOfSchool() {
+        System.out.println("My school is also located at Kwadaso, Kumasi.");
+    }
 }
