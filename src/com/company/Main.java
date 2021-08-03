@@ -4,7 +4,6 @@ import com.mypackage.AddTwoNumbers;
 
 public class Main {
 
-
     public static void main(String[] args) {
         Scanner getInput = new Scanner(System.in);
 
@@ -57,6 +56,11 @@ public class Main {
         MySchool_useInheritance school = new MySchool_useInheritance();
         school.LocationOfSchool();
         school.MySchool();
+
+        //INNER CLASSES AND OUTER CLASSES
+        MyClass outerClass = new MyClass();
+        MyClass.MyInnerClass innerClass = outerClass.new MyInnerClass();
+        innerClass.showInnerClass();
     }
 }
 

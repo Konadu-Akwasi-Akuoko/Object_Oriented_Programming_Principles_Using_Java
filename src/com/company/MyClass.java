@@ -77,4 +77,11 @@ public class MyClass {
         animals.animalColor();
         animals.animalBreed();
     }
+
+    //INNER CLASSES AND OUTER CLASSES
+   class MyInnerClass {
+        public void showInnerClass(){
+            System.out.println("This is a method of the inner class.");
+        }
+    }
 }
