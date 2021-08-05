@@ -61,6 +61,19 @@ public class Main {
         MyClass outerClass = new MyClass();
         MyClass.MyInnerClass innerClass = outerClass.new MyInnerClass();
         innerClass.showInnerClass();
+
+        //INTERFACES
+        Hospital1_UseInterface hospital1 = new Hospital1_UseInterface();
+        Hospital2_UseInterface hospital2 = new Hospital2_UseInterface();
+        System.out.println("\n");
+        hospital1.HospitalName();
+        hospital1.HospitalAge();
+        hospital1.HospitalLocation();
+        hospital1.HospitalNumberOfStaff();
+        hospital2.HospitalName();
+        hospital2.HospitalAge();
+        hospital2.HospitalLocation();
+        hospital2.HospitalNumberOfStaff();
     }
 }
 
